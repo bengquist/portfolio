@@ -26,7 +26,7 @@ export function ContactField() {
 		<textarea
 			ref={ref}
 			className={
-				"w-full p-3 rounded  resize-none leading-8 text-sm font-medium transition-all overflow-hidden placeholder:text-[#000814] bg-[#C1CBDA] text-[#000814]"
+				"w-full p-3 rounded  resize-none leading-8 text-sm font-medium transition-all overflow-hidden placeholder:text-[#05101ba5] bg-[#C1CBDA] text-[#05101b]"
 			}
 			placeholder="What can I build for you?"
 			rows={1}
