@@ -1,0 +1,14 @@
+export function SendIcon(props: React.SVGProps<SVGSVGElement>) {
+	return (
+		<svg
+			viewBox="0 0 24 24"
+			fill={props.color || "currentColor"}
+			height="1em"
+			width="1em"
+			{...props}
+		>
+			<title>Send</title>
+			<path d="M21.426 11.095l-17-8A1 1 0 003.03 4.242l1.212 4.849L12 12l-7.758 2.909-1.212 4.849a.998.998 0 001.396 1.147l17-8a1 1 0 000-1.81z" />
+		</svg>
+	);
+}
