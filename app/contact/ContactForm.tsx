@@ -8,7 +8,6 @@ export default function ContactForm() {
 	const {
 		register,
 		handleSubmit,
-		watch,
 		formState: { errors },
 	} = useForm<ContactFormValues>({
 		defaultValues: {
