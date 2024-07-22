@@ -1,38 +1,52 @@
-import { type ChangeEvent, type KeyboardEvent, useRef, useState } from "react";
+import { type ChangeEvent, type KeyboardEvent, useRef } from "react";
+import type { UseFormRegister } from "react-hook-form";
+import type { ContactFormValues } from "./types";
 
-export function ContactField() {
-	const ref = useRef<HTMLTextAreaElement>(null);
-	const [text, setText] = useState("");
+interface Props {
+	register: UseFormRegister<ContactFormValues>;
+}
 
-	const onChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
-		setText(e.target.value);
+export function ContactField({ register }: Props) {
+	const valueRef = useRef<string>("");
+	const ref = useRef<HTMLTextAreaElement | null>(null);
+	const { ref: descriptionRef, ...rest } = register("description", {
+		required: true,
+	});
 
+	const onInput = (e: ChangeEvent<HTMLTextAreaElement>) => {
 		if (!ref.current) return;
 
-		if (ref.current.value.length < text.length) {
+		// resize textarea if deleting
+		if (valueRef.current.length > e.target.value.length) {
 			ref.current.style.height = "auto";
 		}
 
+		// resize textarea to fit content
 		ref.current.style.height = `${ref.current.scrollHeight}px`;
-	};
 
-	const onKeyDown = (e: KeyboardEvent<HTMLTextAreaElement>) => {
-		if (ref.current && ref.current.value.length < text.length) {
-			ref.current.style.height = "auto";
-		}
+		// store previous value
+		valueRef.current = e.target.value;
+
+		setTimeout(() => {
+			document.querySelector("main")?.scrollIntoView({
+				behavior: "smooth",
+				block: "end",
+			});
+		}, 200);
 	};
 
 	return (
 		<textarea
-			ref={ref}
-			className={
-				"w-full p-3 rounded  resize-none leading-8 text-sm font-medium transition-all overflow-hidden placeholder:text-[#05101ba5] bg-[#C1CBDA] text-[#05101b]"
-			}
+			{...rest}
+			ref={(e) => {
+				descriptionRef(e);
+				if (e) {
+					ref.current = e;
+				}
+			}}
 			placeholder="What can I build for you?"
 			rows={1}
-			value={text}
-			onChange={onChange}
-			onKeyDown={onKeyDown}
+			onInput={onInput}
 		/>
 	);
 }

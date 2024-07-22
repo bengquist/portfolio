@@ -4,6 +4,6 @@ interface Props {
 
 export function TechnologyPill({ name }: Props) {
 	return (
-		<span className="bg-gray-800 rounded-full px-4 py-1 text-sm">{name}</span>
+		<span className="px-4 py-1 text-sm bg-gray-800 rounded-full ">{name}</span>
 	);
 }

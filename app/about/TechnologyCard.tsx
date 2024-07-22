@@ -8,7 +8,7 @@ interface Props {
 export function TechnologyCard({ Icon, name }: Props) {
 	return (
 		<li className="flex items-center gap-2">
-			<Icon width={28} height={28} />
+			<Icon width={32} height={32} />
 			<p className="hover:cursor-default">{name}</p>
 		</li>
 	);

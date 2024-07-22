@@ -20,7 +20,7 @@ export function NavItem({ text, id, isActive }: Props) {
 			<button
 				type="button"
 				onClick={onClick}
-				className={`w-full transition-all text-left  ${isActive ? activeClasses : "text-sm"}`}
+				className={`h-full w-full transition-all text-left ${!isActive && "hover:text-lg hover:font-extrabold"} ${isActive ? activeClasses : "text-sm"}`}
 			>
 				{text}
 			</button>
