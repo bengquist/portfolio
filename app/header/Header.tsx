@@ -1,5 +1,3 @@
-import { SkillSection } from "../about/Technologies";
-import { ContactForm } from "../contact/ContactSection";
 import { Navigation } from "./Navigation";
 import { Profiles } from "./Profiles";
 
