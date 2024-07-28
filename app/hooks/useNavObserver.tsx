@@ -10,7 +10,7 @@ export function useNavObserver() {
 		const sections = [experience, about];
 
 		const options = {
-			threshold: 0.5,
+			threshold: 0.8,
 		};
 
 		const observer = new IntersectionObserver((entries) => {
