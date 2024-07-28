@@ -40,7 +40,7 @@ export const experience = [
 		title: "Frontend Engineer",
 		company: "Eventology (Fan Guru)",
 		description:
-			"Built and maintained an event service web application that lived alongside a mobile app that provided ticketing and AR experiences.",
+			"Built and maintained an event service web application that complemented a mobile app which offered ticketing and augmented reality (AR) experiences.",
 		technologies: [
 			"React",
 			"TypeScript",
