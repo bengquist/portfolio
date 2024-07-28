@@ -1,21 +1,25 @@
 export function AboutText() {
 	return (
-		<div className="flex flex-col gap-4">
+		<div className="flex flex-col gap-6">
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae
-				sit minus odit recusandae ducimus consequatur quaerat, ab omnis neque
-				facilis a ipsam sint, eaque earum doloribus! Odio, saepe dolor?
+				Motivated software engineer with over 6 years of experience, adept at
+				utilizing a wide range of cutting-edge technologies. Known for a strong
+				problem-solving skill set and an ability to overcome challenges
+				efficiently. I enjoy building scalable web applications and thrive in
+				collaborative environments.
 			</p>
 			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-				dolorem voluptatum aliquid fugit error. Corrupti tempore sed facilis,
-				sunt consectetur odit fugit eligendi magnam reprehenderit eum, cum
-				itaque illo iure!
+				I excel at translating mock-ups and designs into high-quality, detailed
+				final products. My experience includes developing new features,
+				maintaining test-driven development practices, mentoring junior
+				developers, and onboarding new team members, ensuring that projects meet
+				the highest standards.
 			</p>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae
-				sit minus odit recusandae ducimus consequatur quaerat, ab omnis neque
-				facilis a ipsam sint, eaque earum doloribus! Odio, saepe dolor?
+				With a friendly, honest, and empathetic personality, I work well with
+				others and prioritize effective communication. My goal is to contribute
+				to building robust and efficient web applications that provide a
+				seamless user experience.
 			</p>
 		</div>
 	);

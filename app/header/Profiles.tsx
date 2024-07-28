@@ -2,7 +2,7 @@ import { profiles } from "./data";
 
 export function Profiles() {
 	return (
-		<ul className="flex gap-6 mb-3">
+		<ul className="flex gap-6">
 			{profiles.map(({ Icon, url }) => (
 				<li key={url}>
 					<a

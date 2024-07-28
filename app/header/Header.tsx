@@ -7,15 +7,15 @@ interface Props {
 
 export function Header({ activeSection }: Props) {
 	return (
-		<header className="h-screen w-full flex flex-col justify-between gap-12 py-28 sticky top-0 ">
+		<header className="h-screen w-full max-w-sm flex flex-col justify-between gap-12 py-28 sticky top-0">
 			<div className="flex flex-col gap-16">
 				<div className="flex flex-col gap-4">
 					<h1>Blake Engquist</h1>
 					<h2>Senior UI Engineer</h2>
 
-					<p>
-						lorm ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-						eiusmod tempor incididunt ut labore
+					<p className="opacity-75">
+						I build performant, scalable, and delightful user interfaces for the
+						world to enjoy.
 					</p>
 				</div>
 

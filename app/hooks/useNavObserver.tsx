@@ -6,12 +6,11 @@ export function useNavObserver() {
 	useEffect(() => {
 		const about = document.getElementById("about");
 		const experience = document.getElementById("experience");
-		const contact = document.getElementById("contact");
 
-		const sections = [experience, about, contact];
+		const sections = [experience, about];
 
 		const options = {
-			threshold: 0.8,
+			threshold: 0.5,
 		};
 
 		const observer = new IntersectionObserver((entries) => {
@@ -23,9 +22,6 @@ export function useNavObserver() {
 							break;
 						case "experience":
 							setActiveSection("experience");
-							break;
-						case "contact":
-							setActiveSection("contact");
 							break;
 					}
 				}

@@ -25,19 +25,19 @@ export function ExperienceCard({
 			className="p-4 rounded-md bg-medium-blue group hover:!opacity-100 group-hover/list:opacity-50 transition-all"
 		>
 			<div className="flex gap-6">
-				<p className="text-sm w-full whitespace-nowrap mt-1">
+				<p className="w-24 opacity-50 text-sm whitespace-nowrap mt-1">
 					{startDate} - {endDate}
 				</p>
-				<div className="flex flex-col gap-4">
+				<div className="w-full flex flex-col gap-4">
 					<div>
 						<div className="flex justify-between items-center">
 							<h3>{title}</h3>
 							<ExternalLinkIcon color="yellow" />
 						</div>
-						<h4>{company}</h4>
+						<h4 className="text-sm">{company}</h4>
 					</div>
-					<p className="text-sm">{description}</p>
-					<ul className="flex gap-4">
+					<p className="text-sm opacity-75">{description}</p>
+					<ul className="flex flex-wrap gap-2">
 						{technologies.map((technology) => (
 							<TechnologyPill key={technology} name={technology} />
 						))}

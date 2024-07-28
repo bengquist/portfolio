@@ -5,8 +5,15 @@ export const experience = [
 		title: "Senior Frontend Engineer",
 		company: "Insight Global",
 		description:
-			"Esse fugiat nostrud dolore laboris amet cupidatat deserunt veniam quis laborum est enim. Ex magna mollit ullamco est non aliquip Lorem. Ullamco pariatur sint fugiat exercitation laboris proident do ad reprehenderit exercitation. Commodo cupidatat nostrud ad ut commodo amet enim adipisicing id dolore aliquip aliquip est quis. Ullamco nulla elit fugiat culpa in nostrud excepteur sit cupidatat officia velit fugiat.",
-		technologies: ["React", "TypeScript", "Jest", "Cypress"],
+			"Worked with Chick-fil-A to rebuild an employee-facing web application that controlled daily store operations. Provided technical leadership and guidance to the team.",
+		technologies: [
+			"React",
+			"TypeScript",
+			"Jest",
+			"Testing Library",
+			"Cypress",
+			"i18n",
+		],
 		url: "https://insightglobal.com",
 	},
 	{
@@ -15,8 +22,16 @@ export const experience = [
 		title: "Frontend Engineer",
 		company: "NCR Voyix",
 		description:
-			"Consectetur minim laboris fugiat nulla aliquip eiusmod laboris labore sunt deserunt nostrud dolore veniam. Proident nisi dolor sit laboris irure. Amet cillum anim dolore nisi dolore commodo anim. Ipsum fugiat incididunt duis adipisicing aliquip aliqua incididunt in cupidatat do non aliqua deserunt.",
-		technologies: ["React", "TypeScript", "Jest", "Cypress"],
+			"Led the implementation of major features to a digital banking web application. Helped mentor junior developers and onboard new team members.",
+		technologies: [
+			"React",
+			"TypeScript",
+			"Jest",
+			"Testing Library",
+			"MUI",
+			"ADA",
+			"l10n",
+		],
 		url: "https://www.ncrvoyix.com",
 	},
 	{
@@ -25,8 +40,16 @@ export const experience = [
 		title: "Frontend Engineer",
 		company: "Eventology",
 		description:
-			"Lorem dolor eu nulla sunt aliquip qui esse nostrud deserunt aute. Anim nostrud est reprehenderit do occaecat pariatur. Duis dolor commodo ea ullamco reprehenderit duis elit aute. Ea Lorem ut elit et laborum velit eiusmod velit elit in veniam occaecat incididunt.",
-		technologies: ["React", "TypeScript", "Jest", "Storybook"],
+			"Built and maintained an event service web application that lived alongside a mobile app that provided ticketing and AR experiences.",
+		technologies: [
+			"React",
+			"TypeScript",
+			"Storybook",
+			"Styled Components",
+			"Jest",
+			"Testing Library",
+			"AWS",
+		],
 		url: "https://www.eventology.io",
 	},
 ];

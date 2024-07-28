@@ -1,4 +1,6 @@
-import { CodeIcon } from "../icons/CodeIcon";
+import { AtIcon } from "../icons/At";
+import { CodeIcon } from "../icons/Code";
+import EmailIcon from "../icons/Email";
 import { GithubIcon } from "../icons/Github";
 import { LinkedInIcon } from "../icons/LinkedIn";
 import { ResumeIcon } from "../icons/Resume";
@@ -11,10 +13,6 @@ export const navLinks = [
 	{
 		name: "Experience",
 		id: "experience",
-	},
-	{
-		name: "Contact",
-		id: "contact",
 	},
 ];
 
@@ -34,5 +32,9 @@ export const profiles = [
 	{
 		Icon: CodeIcon,
 		url: "https://github.com/bengquist/portfolio",
+	},
+	{
+		Icon: EmailIcon,
+		url: "mailto:blakeengquist@gmail.com",
 	},
 ];

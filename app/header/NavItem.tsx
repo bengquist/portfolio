@@ -5,8 +5,6 @@ interface Props {
 }
 
 export function NavItem({ text, id, isActive }: Props) {
-	const activeClasses = "font-extrabold text-3xl text-[#ffc300]";
-
 	const onClick = () => {
 		const element = document.getElementById(id);
 
@@ -16,11 +14,11 @@ export function NavItem({ text, id, isActive }: Props) {
 	};
 
 	return (
-		<li className="w-full h-9 flex items-center">
+		<li className="w-full flex items-center">
 			<button
 				type="button"
 				onClick={onClick}
-				className={`h-full w-full transition-all text-left ${!isActive && "hover:text-lg hover:font-extrabold"} ${isActive ? activeClasses : "text-sm"}`}
+				className={`text-lg text-left font-bold link-underline link-underline-yellow ${isActive && "text-yellow link-underline-active"}`}
 			>
 				{text}
 			</button>

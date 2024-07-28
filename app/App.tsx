@@ -1,7 +1,6 @@
 "use client";
 
 import { AboutSection } from "./about/AboutSection";
-import { ContactSection } from "./contact/ContactSection";
 import { ExperienceSection } from "./experience/ExperienceSection";
 import { Header } from "./header/Header";
 import { useNavObserver } from "./hooks/useNavObserver";
@@ -16,7 +15,6 @@ export function App() {
 				<main className="w-full flex flex-col py-14">
 					<AboutSection />
 					<ExperienceSection />
-					<ContactSection />
 				</main>
 			</div>
 		</div>
