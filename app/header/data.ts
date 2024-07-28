@@ -1,4 +1,3 @@
-import { AtIcon } from "../icons/At";
 import { CodeIcon } from "../icons/Code";
 import EmailIcon from "../icons/Email";
 import { GithubIcon } from "../icons/Github";
