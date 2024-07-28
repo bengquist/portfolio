@@ -52,4 +52,13 @@ export const experience = [
 		],
 		url: "https://www.eventology.io",
 	},
+	{
+		startDate: "2018",
+		title: "Full Stack Engineer",
+		company: "DevMountain",
+		description:
+			"Developed three full-stack projects to demonstrate proficiency in various technologies and concepts.",
+		technologies: ["React", "Node", "Express", "PostgreSQL"],
+		url: "https://devmountain.com",
+	},
 ];

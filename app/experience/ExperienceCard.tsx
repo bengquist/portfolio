@@ -26,7 +26,8 @@ export function ExperienceCard({
 		>
 			<div className="flex gap-6">
 				<p className="w-24 opacity-50 text-sm whitespace-nowrap mt-1">
-					{startDate} - {endDate}
+					{startDate}
+					{endDate && ` - ${endDate}`}
 				</p>
 				<div className="w-full flex flex-col gap-4">
 					<div>
