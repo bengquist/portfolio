@@ -24,7 +24,7 @@ export function ExperienceCard({
 			rel="noreferrer"
 			className="p-4 rounded-md bg-medium-blue group hover:!opacity-100 group-hover/list:opacity-50 transition-all"
 		>
-			<div className="flex gap-6">
+			<div className="flex flex-col lg:flex-row lg:gap-6">
 				<p className="w-24 opacity-50 text-sm whitespace-nowrap mt-1">
 					{startDate}
 					{endDate && ` - ${endDate}`}

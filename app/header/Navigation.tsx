@@ -7,7 +7,7 @@ interface Props {
 
 export function Navigation({ activeSection }: Props) {
 	return (
-		<nav>
+		<nav className="hidden lg:block">
 			<ul className="flex flex-col gap-2">
 				{navLinks.map(({ name, id }) => (
 					<NavItem

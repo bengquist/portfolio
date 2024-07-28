@@ -8,7 +8,10 @@ interface Props {
 
 export function Section({ children, id, className }: Props) {
 	return (
-		<section id={id} className={`flex flex-col gap-28 py-14 ${className}`}>
+		<section
+			id={id}
+			className={`flex flex-col gap-28 py-8 lg:py-14 ${className}`}
+		>
 			{children}
 		</section>
 	);
