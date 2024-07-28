@@ -5,8 +5,7 @@ export function AboutText() {
 				Motivated software engineer with over 6 years of experience, adept at
 				utilizing a wide range of cutting-edge technologies. Known for a strong
 				problem-solving skill set and an ability to overcome challenges
-				efficiently. I enjoy building scalable web applications and thrive in
-				collaborative environments.
+				effectively.
 			</p>
 			<p>
 				I excel at translating mock-ups and designs into high-quality, detailed
