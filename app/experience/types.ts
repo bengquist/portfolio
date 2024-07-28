@@ -1,6 +1,6 @@
 export interface Experience {
 	startDate: string;
-	endDate: string;
+	endDate?: string;
 	title: string;
 	company: string;
 	description: string;
