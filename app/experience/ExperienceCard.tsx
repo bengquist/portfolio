@@ -22,7 +22,7 @@ export function ExperienceCard({
 			href={url}
 			target="_blank"
 			rel="noreferrer"
-			className="p-4 rounded-md bg-medium-blue group hover:!opacity-100 group-hover/list:opacity-50 transition-all"
+			className="p-4 rounded-md bg-medium-blue group lg:hover:!opacity-100 lg:group-hover/list:opacity-50 transition-all"
 		>
 			<div className="flex flex-col lg:flex-row lg:gap-6">
 				<p className="w-24 opacity-50 text-sm whitespace-nowrap mt-1">

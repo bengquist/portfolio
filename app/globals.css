@@ -62,11 +62,4 @@ body {
   h4 {
     @apply text-lg;
   }
-  input,
-  textarea {
-    @apply w-full p-3 rounded text-sm font-medium placeholder:text-[#05101ba5] bg-[#C1CBDA] text-[#05101b];
-  }
-  textarea {
-    @apply resize-none transition-all overflow-hidden;
-  }
 }
