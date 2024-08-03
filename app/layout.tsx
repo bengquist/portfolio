@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Blake Engquist",
-	description: "Senior Frontend Engineer",
+	description: "Senior UI Engineer",
 	keywords: [
 		"blake",
 		"engquist",
