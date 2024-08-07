@@ -1,4 +1,4 @@
-This is my web portfolio! https://www.blake-engquist.dev/
+This is my web portfolio! https://www.blake-engquist.dev
 
 ## Getting Started
 
