@@ -54,7 +54,6 @@ export const experience = [
 			"Styled Components",
 			"Jest",
 			"Testing Library",
-			"AWS",
 		],
 		url: "https://www.eventology.io",
 	},
@@ -64,15 +63,7 @@ export const experience = [
 		company: "DevMountain",
 		description:
 			"Developed three full-stack projects to demonstrate proficiency in various technologies and concepts.",
-		technologies: [
-			"React",
-			"Node",
-			"Express",
-			"PostgreSQL",
-			"MongoDB",
-			"AWS",
-			"Firebase",
-		],
+		technologies: ["React", "Node", "Express", "PostgreSQL", "MongoDB", "S3"],
 		url: "https://devmountain.com",
 	},
 ];
